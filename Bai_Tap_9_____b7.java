@@ -2,11 +2,11 @@ package Bo_Tuc_Sinh_Vien_T3;
 
 public class Bai_Tap_9_____b7 {
     public static void main(String[] args) {
-        bai7();
-    }
-    public static void bai7(){
         int rong [] = new int[7];
+        Gangiatrichomangrong(rong);
 
+    }
+    public static void Gangiatrichomangrong ( int rong []){
         rong [0] = 1;
         rong [1] = 2;
         rong [2] = 3;
@@ -14,7 +14,7 @@ public class Bai_Tap_9_____b7 {
         rong [4] = 5;
         rong [5] = 6;
         rong [6] = 7;
-
-//        System.out.println(rong[3]);
+        System.out.println(rong[4]);
     }
+
 }
